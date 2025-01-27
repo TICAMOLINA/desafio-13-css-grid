@@ -49,13 +49,17 @@ body {
 .button {
     width: 95px;
     height: 95px;
-    align-content: center;
+    display: grid;
+    align-items: center;
     text-align: center;
     margin-bottom: 3px;
-    background-color: black;
-    color: white;
+    background-color: transparent;
+    color: #00ffff;
     font-size: 35px;
     cursor: pointer;
+    border: solid #00ffff 2px;
+    box-shadow: 0 0 10px #00ffff;
+    transition: 0.3s ease-in-out;
 }
 
 .button:hover {
