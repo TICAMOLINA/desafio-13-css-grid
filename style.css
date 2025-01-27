@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     border-radius: 10px;
+    font-family: "Rubik", serif;
 }
 
 body {
@@ -14,7 +15,6 @@ body {
     background-position: center;
     height: 100vh; 
     margin: 0;
-    font-family: "Rubik", serif;
 }
 
 .main-container {
@@ -27,15 +27,16 @@ body {
 }
 
 .display-number{
-    font-family: 'Times New Roman', Times, serif;
     width: 398px;
-    height: 70px;
-    border: solid black 2px;
+    height: 90px;
+    border: solid #ff00ff 2px;
     margin-bottom: 8px;
     font-size: 55px;
     text-align: end;
     cursor: pointer;
-
+    box-shadow: 0 0 10px #ff00ff;
+    background-color: transparent; 
+    color: #ff00ff; 
 }
 
 .numbers {
