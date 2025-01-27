@@ -40,11 +40,9 @@ body {
 }
 
 .numbers {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
     width: 400px;
 }
 
