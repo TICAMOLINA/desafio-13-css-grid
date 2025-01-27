@@ -63,7 +63,16 @@ body {
 }
 
 .button:hover {
-    background-color: aliceblue;
-    color: black;
-    border: solid black 2px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #00ffff;
+}
+
+#equal {
+    color: #ffff00; 
+    border: solid #ffff00 2px;
+    box-shadow: 0 0 15px #ffff00;
+}
+
+#equal:hover {
+    box-shadow: 0 0 20px #ffff00; 
 }
