@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('imgs/wallpaperbetter.jpg');
+    background-image: url('/imgs/wallpaperbetter.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
